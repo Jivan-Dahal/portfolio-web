@@ -36,7 +36,7 @@
                 {{-- Menu btn ,only display on mobile --}}
                 <div class="md:hidden">
                     <button id="mobile-menu-button" class="text-white text-2xl">
-                        <i class='bx bx-menu'>BOX</i>
+                        <i class='bx bx-menu'></i>
                     </button>
                 </div>
 
@@ -73,9 +73,9 @@
                 <div class="mt-12 mb-8 flex gap-4 items-center">
                     <p>Find me on:</p>
                     <div class="flex space-x-3">
-                        <a href=""><i class='w-8 h-8 bx bxl-facebook-circle bx-md text-blue-700 '></i></a>
-                        <a href=""><i class='w-8 h-8 bx bxl-instagram bx-md'></i></a>
-                        <a href=""><i class='w-8 h-8 bx bxl-github bx-md'></i></a>
+                        <a href="https://www.facebook.com/jivandahal2" ><i class=' hover:text-gray-400  w-8 h-8 bx bxl-facebook-circle bx-md '></i></a>
+                        <a href="https://www.instagram.com/jivan_dahal__"><i class='hover:text-gray-400 w-8 h-8 bx bxl-instagram bx-md'></i></a>
+                        <a href="https://github.com/Jivan-Dahal"><i class='hover:text-gray-400 w-8 h-8 bx bxl-github bx-md'></i></a>
                     </div>
 
                 </div>
@@ -236,7 +236,7 @@
                 </div>
                 <div class="mb-4">
                     <button
-                        class="bg-primary text-white py-3 px-8 rounded-lg  hover:bg-indigo-700 cursor-pointer">Submit</button>
+                        class="bg-primary text-white py-3 px-8 rounded-lg  hover:bg-indigo-700 cursor-pointer" disabled>Submit</button>
                 </div>
             </form>
         </div>

@@ -10,8 +10,8 @@
     {{-- Box Icon --}}
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-    @vite('public/css/app.css')
-
+       {{-- Vite CSS --}}
+       @vite('resources/css/app.css')
     {{-- Swiper Slider --}}
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
@@ -83,7 +83,8 @@
 
             {{-- Right Side --}}
             <div class="md:w-1/2 order-first md:order-none">
-                <img src="image/profile.png" class="w-fit md:ml-10" alt="">
+                <img src="image/profile.png" class="w-fit md:ml-10 bg-cover" alt="">
+
             </div>
 
         </div>
@@ -324,14 +325,15 @@
     </footer>
 
     {{-- Script --}}
-    <script src="js/main.js"></script>
+    <script src="resources/js/main.js"></script>
 
     {{-- Swiper slider --}}
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="js/review.js"></script>
+    <script src="resources/js/review.js"></script>
 
 
 </body>
 
 </html>
+z

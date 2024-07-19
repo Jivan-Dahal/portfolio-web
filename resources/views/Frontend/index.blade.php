@@ -325,12 +325,12 @@
     </footer>
 
     {{-- Script --}}
-    <script src="resources/js/main.js"></script>
+    <script src="js/main.js"></script>
 
     {{-- Swiper slider --}}
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-    <script src="resources/js/review.js"></script>
+    <script src="js/review.js"></script>
 
 
 </body>
